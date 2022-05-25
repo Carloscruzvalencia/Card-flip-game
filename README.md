@@ -1,8 +1,5 @@
 # Card-flip-game
 - mira la pagina en el siguiente link: [Card-flip-game](https://carloscruzvalencia.github.io/Card-flip-game/)
-
-Diseño creado en <a href="https://www.figma.com/file/kP0SJhf4iDDa9kAzsz1LM1/Github-projects?node-id=0%3A1">figma</a> por Carlos cruz valencia
-
 ## Links de interes
 <!-- link a correo -->
 <code> <a href="mailto:a2carcruzinfo@gmail.com"><img height="25" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a></code>
