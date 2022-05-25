@@ -1,4 +1,17 @@
 main{
     width: 100vw;
     height: 100vh;
+    display: grid;
+    .wp-content{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        height: 82vh;
+        width: 90vw;
+        align-self: end;
+        justify-self: center;
+        margin-bottom: 2vh;
+    }
 }

@@ -1,12 +1,11 @@
 .cards-gp {
-    width: 15vw;
-    height: 48vh;
-
+    width: 12vw;
+    height: 37vh;
     .card-face {
         background-image: url(../../media/img/components/cards/face.png);
         background-size: cover;
-        width: 15vw;
-        height: 48vh;
+        width: 12vw;
+        height: 37vh;
         border-radius: 0.5vw;
         position: relative;
         z-index: -1;
@@ -18,8 +17,9 @@
     .card-back {
         background-image: url(../../media/img/components/cards/back-1.png);
         background-size: cover;
-        width: 15vw;
-        height: 48vh;
+        width: 12vw;
+        height: 37vh;
+        margin-top: 11vh;
         border-radius: 0.5vw;
         position: relative;
         z-index: -2;
