@@ -1,0 +1,10 @@
+// browser configuration files
+@use "base/settings";
+
+
+// webpage components
+@use "components/menu";
+@use "components/cards";
+
+// wevpage layouts
+@use "layouts/landing";

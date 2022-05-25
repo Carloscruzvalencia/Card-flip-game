@@ -1,0 +1,45 @@
+.cards-gp {
+    width: 15vw;
+    height: 48vh;
+
+    .card-face {
+        background-image: url(../../media/img/components/cards/face.png);
+        background-size: cover;
+        width: 15vw;
+        height: 48vh;
+        border-radius: 0.5vw;
+        position: relative;
+        z-index: -1;
+        transform: perspective(600px) rotateY(0deg);
+        backface-visibility: hidden;
+
+    }
+
+    .card-back {
+        background-image: url(../../media/img/components/cards/back-1.png);
+        background-size: cover;
+        width: 15vw;
+        height: 48vh;
+        border-radius: 0.5vw;
+        position: relative;
+        z-index: -1;
+        top: -48vh;
+        transform: perspective(600px) rotateY(180deg);
+        backface-visibility: hidden;
+    }
+}
+*{
+    transition: 1s ease-in-out;
+}
+
+.cards-gp:hover {
+    cursor: pointer;
+}
+
+.cards-gp:hover .card-face {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.cards-gp:hover .card-back {
+    transform: perspective(600px) rotateY(360deg);
+}
