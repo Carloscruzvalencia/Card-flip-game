@@ -1,8 +1,8 @@
-// function openMenu() {
-//     document.getElementById("menu-eff").style.width = "100%";
-//     document.getElementById("blur-eff").style.filter = "blur(3px)";
-
-// }
+function openMenu() {
+    document.getElementById("menuv").style.display = "none";
+    document.getElementById("menu-eff").style.width = "30%";
+    document.getElementById("blur-eff").style.filter = "blur(3px)";
+}
 
 // function closeMenu() {
 //     document.getElementById("menu-eff").style.width = "0%";

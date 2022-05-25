@@ -1,3 +1,36 @@
+.menu-op{
+    position: absolute;
+    left: 2vw;
+    top: 2vh;
+}
 header{
-    display: none;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.267);
+    width: 0vw;
+    height: 100vh;
+    z-index: 1;
+    transition: 1s ease-in-out;
+    overflow: hidden;
+
+    nav{
+        .menu-cl{
+            position: absolute;
+            right: 27vw;
+            top: -8vh;
+        }
+        display: grid;
+        margin-top: 10vh;
+        position: relative;
+        left: 1vw;
+        ul{
+            display: grid;
+            grid-row-gap: 5vh;
+            font-size: 1.5vw;
+            li{
+                border-bottom: 1px black solid;
+                position: relative;
+                left: -40vw;
+            }
+        }
+    }    
 }
