@@ -1,36 +1,50 @@
-.menu-op{
+.op-menu{
+    position: fixed;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    cursor: pointer;
+    z-index: 1;
+}
+.cl-menu{
     position: absolute;
-    left: 2vw;
-    top: 2vh;
+    margin-top: -17vh;
+    margin-left: 0vw;
+    cursor: pointer;
+    z-index: 1;
 }
 header{
-    position: absolute;
-    background-color: rgba(128, 128, 128, 0.267);
     width: 0vw;
     height: 100vh;
+    position: absolute;
     z-index: 1;
-    transition: 1s ease-in-out;
     overflow: hidden;
-
+    transition: 0.5s ease-in-out;
     nav{
-        .menu-cl{
-            position: absolute;
-            right: 27vw;
-            top: -8vh;
-        }
         display: grid;
-        margin-top: 10vh;
-        position: relative;
-        left: 1vw;
+        background: linear-gradient(90deg, rgb(233 233 233) 0%, rgb(217 217 217 / 40%) 35%, rgb(221 221 221 / 14%) 100%);
+        width: 50vw;
+        height: 100vh;
         ul{
             display: grid;
-            grid-row-gap: 5vh;
+            height: 62vh;
+            align-self: center;
+            margin-left: 2vw;
             font-size: 1.5vw;
-            li{
-                border-bottom: 1px black solid;
-                position: relative;
-                left: -40vw;
+            font-weight: bold;
+            a{
+                text-decoration: none;
+                color: #000;
+                height: 3.5vh;
+                width: 44vw;
+                li{
+                    border-bottom: 2px black solid;
+                    width: 44vw;
+            }
+            }
+            a:hover{
+                color: white;
+                text-decoration: none;
             }
         }
-    }    
+    }
 }

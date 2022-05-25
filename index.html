@@ -10,19 +10,32 @@
 </head>
 
 <body>
-    <img onclick="openMenu()" class="menu-op"  id="menuv" src="assets/media/img/components/menu/menu-bl.png" alt="">
-    <header id="menu-eff">
+    <img class="op-menu" onclick="openMenu()" src="assets/media/img/components/menu/menu-black.png" alt="">
+    <header id="menu-eff" onclick="closeMenu()">
         <nav>
-            <img class="menu-cl" src="assets/media/img/components/menu/menu-bl.png" alt="">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">More</a></li>
+                <img class="cl-menu" onclick="closeMenu()" src="assets/media/img/components/menu/menu-black.png" alt="">
+
+                <a onclick="closeMenu()" href="#none">
+
+                    <li>HOME</li>
+                </a>
+                <a onclick="closeMenu()" href="#none">
+
+                    <li>CONTACT</li>
+                </a>
+                <a onclick="closeMenu()" href="#none">
+
+                    <li>EXPLORE</li>
+                </a>
+                <a onclick="closeMenu()" href="#none">
+
+                    <li>MORE</li>
+                </a>
             </ul>
         </nav>
     </header>
-    <main id="blur-eff">
+    <main id="blur-eff" onclick="closeMenu()">
         <section class="wp-content">
             <div class="cards-gp" onclick="cardFlip1()">
                 <div class="card-face" id="cardRevealFace"></div>
