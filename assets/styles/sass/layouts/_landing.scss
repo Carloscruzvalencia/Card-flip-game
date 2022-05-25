@@ -2,6 +2,7 @@ main{
     width: 100vw;
     height: 100vh;
     display: grid;
+    background-color: #E4EFF3;
     .wp-content{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -13,5 +14,6 @@ main{
         align-self: end;
         justify-self: center;
         margin-bottom: 2vh;
+        z-index: 1;
     }
 }
