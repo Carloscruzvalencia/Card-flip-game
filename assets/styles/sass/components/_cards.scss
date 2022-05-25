@@ -22,7 +22,7 @@
         height: 48vh;
         border-radius: 0.5vw;
         position: relative;
-        z-index: -1;
+        z-index: -2;
         top: -48vh;
         transform: perspective(600px) rotateY(180deg);
         backface-visibility: hidden;
@@ -35,11 +35,9 @@
 .cards-gp:hover {
     cursor: pointer;
 }
-
-.cards-gp:hover .card-face {
-    transform: perspective(600px) rotateY(180deg);
+.reveal-face{
+    transform: perspective(600px) rotateY(180deg) !important;
 }
-
-.cards-gp:hover .card-back {
-    transform: perspective(600px) rotateY(360deg);
+.reveal-back{
+    transform: perspective(600px) rotateY(360deg) !important;
 }

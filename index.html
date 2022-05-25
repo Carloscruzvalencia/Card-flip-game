@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/styles/css/main.css">
 </head>
+
 <body>
     <header>
         <img src="" alt="">
@@ -21,10 +23,14 @@
         <img src="" alt="">
     </header>
     <main>
-        <section class="cards-gp">
-                <div class="card-face"></div>
-                <div class="card-back"></div>
+        <section>
+            <div class="cards-gp" onclick="cardFlip();cardFlip2()">
+                <div class="card-face" id="cardRevealFace"></div>
+                <div class="card-back" id="cardRevealBack"></div>
+            </div>
         </section>
+        <script src="assets/js/app.js"></script>
     </main>
 </body>
+
 </html>
