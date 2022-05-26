@@ -137,20 +137,7 @@ function userclick() {
                     console.log("test")
                     document.getElementById(cardSelectionface2).classList.remove("reveal-face");
                     document.getElementById(cardSelectionBack2).classList.remove("reveal-back");
-                }, 2000)
-
-
-
-
-
-
-
-
-
-
-
-
-
+                }, 1000)
                 similar = [];
                 pid = [];
             }
@@ -212,3 +199,29 @@ function cardId10() {
     pid.push(10)
 
 }
+
+
+
+generator = []
+exit = 0;
+while (exit != 10) {
+    exit++;
+    var column = Math.floor(Math.random() * 2+1);
+    var area = Math.floor(Math.random() * 5+1);
+    
+    carpositions = column +"/"+ area;
+    generator.push(carpositions)
+}
+
+
+
+document.getElementById("cardRandom1").style.gridArea = generator[0];
+document.getElementById("cardRandom2").style.gridArea = generator[1];
+document.getElementById("cardRandom3").style.gridArea = generator[2];
+document.getElementById("cardRandom4").style.gridArea = generator[3];
+document.getElementById("cardRandom5").style.gridArea = generator[4];
+document.getElementById("cardRandom6").style.gridArea = generator[5];
+document.getElementById("cardRandom7").style.gridArea = generator[6];
+document.getElementById("cardRandom8").style.gridArea = generator[7];
+document.getElementById("cardRandom9").style.gridArea = generator[8];
+document.getElementById("cardRandom10").style.gridArea = generator[9];

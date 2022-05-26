@@ -1,6 +1,7 @@
 .cards-gp {
     width: 12vw;
     height: 37vh;
+
     .card-face {
         background-image: url(../../media/img/components/cards/face.png);
         background-size: cover;
@@ -16,7 +17,7 @@
     }
 
     .card-back {
-        background-image: url(../../media/img/components/cards/back-1.png);
+        // background-image: url(../../media/img/components/cards/back-1.png);
         background-size: cover;
         width: 12vw;
         height: 37vh;
@@ -29,14 +30,37 @@
         backface-visibility: hidden;
         transition: 1s ease-in-out;
     }
+
+    .bk-img1 {
+        background-image: url(../../media/img/components/cards/back-1.png);
+    }
+
+    .bk-img2 {
+        background-image: url(../../media/img/components/cards/back-2.png);
+    }
+
+    .bk-img3 {
+        background-image: url(../../media/img/components/cards/back-3.png);
+    }
+
+    .bk-img4 {
+        background-image: url(../../media/img/components/cards/back-4.png);
+    }
+
+    .bk-img5 {
+        background-image: url(../../media/img/components/cards/back-5.png);
+    }
+
 }
 
 .cards-gp:hover {
     cursor: pointer;
 }
-.reveal-face{
+
+.reveal-face {
     transform: perspective(600px) rotateY(180deg) !important;
 }
-.reveal-back{
+
+.reveal-back {
     transform: perspective(600px) rotateY(360deg) !important;
 }
