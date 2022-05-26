@@ -169,31 +169,37 @@ function cardId4() {
     pid.push(4)
 
 }
+
 function cardId5() {
     similar.push(3)
     pid.push(5)
 
 }
+
 function cardId6() {
     similar.push(3)
     pid.push(6)
 
 }
+
 function cardId7() {
     similar.push(4)
     pid.push(7)
 
 }
+
 function cardId8() {
     similar.push(4)
     pid.push(8)
 
 }
+
 function cardId9() {
     similar.push(5)
     pid.push(9)
 
 }
+
 function cardId10() {
     similar.push(5)
     pid.push(10)
@@ -204,17 +210,16 @@ function cardId10() {
 
 generator = []
 exit = 0;
-while (exit != 10) {
+while (exit != 100) {
     exit++;
-    var column = Math.floor(Math.random() * 2+1);
-    var area = Math.floor(Math.random() * 5+1);
-    
-    carpositions = column +"/"+ area;
-    generator.push(carpositions)
+    var column = Math.floor(Math.random() * 2 + 1);
+    var area = Math.floor(Math.random() * 5 + 1);
+    carpositions = column + "/" + area;
+    if (carpositions == generator[0] || carpositions == generator[1] || carpositions == generator[2] || carpositions == generator[3] || carpositions == generator[4] || carpositions == generator[5] || carpositions == generator[6] || carpositions == generator[7] || carpositions == generator[8] || carpositions == generator[9]) {} else {
+        generator.push(carpositions)
+    }
+
 }
-
-
-
 document.getElementById("cardRandom1").style.gridArea = generator[0];
 document.getElementById("cardRandom2").style.gridArea = generator[1];
 document.getElementById("cardRandom3").style.gridArea = generator[2];
@@ -225,3 +230,38 @@ document.getElementById("cardRandom7").style.gridArea = generator[6];
 document.getElementById("cardRandom8").style.gridArea = generator[7];
 document.getElementById("cardRandom9").style.gridArea = generator[8];
 document.getElementById("cardRandom10").style.gridArea = generator[9];
+
+
+setTimeout(function () {
+    document.getElementById("cardRevealFace0").classList.remove("faceinicio");
+    document.getElementById("cardRevealBack0").classList.remove("backinicio");
+
+    document.getElementById("cardRevealFace2").classList.remove("faceinicio");
+    document.getElementById("cardRevealBack2").classList.remove("backinicio");
+
+    document.getElementById("cardRevealFace3").classList.remove("faceinicio");
+    document.getElementById("cardRevealBack3").classList.remove("backinicio");
+
+    document.getElementById("cardRevealFace4").classList.remove("faceinicio");
+    document.getElementById("cardRevealBack4").classList.remove("backinicio");
+
+    document.getElementById("cardRevealFace5").classList.remove("faceinicio");
+    document.getElementById("cardRevealBack5").classList.remove("backinicio");
+
+    document.getElementById("cardRevealFace6").classList.remove("faceinicio");
+    document.getElementById("cardRevealBack6").classList.remove("backinicio");
+
+    document.getElementById("cardRevealFace7").classList.remove("faceinicio");
+    document.getElementById("cardRevealBack7").classList.remove("backinicio");
+
+    document.getElementById("cardRevealFace8").classList.remove("faceinicio");
+    document.getElementById("cardRevealBack8").classList.remove("backinicio");
+
+    document.getElementById("cardRevealFace9").classList.remove("faceinicio");
+    document.getElementById("cardRevealBack9").classList.remove("backinicio");
+
+    document.getElementById("cardRevealFace10").classList.remove("faceinicio");
+    document.getElementById("cardRevealBack10").classList.remove("backinicio");
+
+
+}, 2000)

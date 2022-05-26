@@ -13,7 +13,6 @@
         transform: perspective(600px) rotateY(0deg);
         backface-visibility: hidden;
         transition: 1s ease-in-out;
-
     }
 
     .card-back {
@@ -63,4 +62,12 @@
 
 .reveal-back {
     transform: perspective(600px) rotateY(360deg) !important;
+}
+
+.faceinicio {
+    transform: perspective(600px) rotateY(180deg) !important;
+}
+
+.backinicio {
+    transform: perspective(600px) rotateY(359deg) !important;
 }
