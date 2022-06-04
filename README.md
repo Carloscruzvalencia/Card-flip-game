@@ -25,21 +25,17 @@ lenguajes/frameworks usados
 ## Inpiracion del proyecto & objetivo
 - El objetivo principal es crear un juego de cartas, donde el usuario debe encontrar las cartas que con el mismo diseño.
 
-- compitiendo contra un programa en javascript que intentara hacer lo mismo 
-
-- la meta es encontrar mas pares de cartas que el oponente
-
 inspiracion del proyecto: carlos cruz valencia diseño en figma & robot con IA en el cosmo caixa 
 
 
 ## Estado del proyecto
 |             ESTADO                |             |
 | -------------------------- | :----------------: | 
-| EN PROGRESO           |        ✔️      |  
+| Terminado          |        ✔️      |  
 
 ## Vista previa del proyecto
-<!-- <img src="project-preview.gif" aling="center"></img> -->
-<img src="project-preview.png" aling="center"></img>
+<img src="project-preview.gif" aling="center"></img>
+<!-- <img src="project-preview.png" aling="center"></img> -->
 
 ## Licencia
 Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md)  para mas detalles
