@@ -1,5 +1,13 @@
 # Card-flip-game
 - mira la pagina en el siguiente link: [Card-flip-game](https://carloscruzvalencia.github.io/Card-flip-game/)
+## Inpiracion del proyecto & objetivo
+- El objetivo principal es crear un juego de cartas, donde el usuario debe encontrar las cartas que con el mismo diseño.
+
+- compitiendo contra un programa en javascript que intentara hacer lo mismo 
+
+- la meta es encontrar mas pares de cartas que el oponente
+
+inspiracion del proyecto: carlos cruz valencia diseño en figma & robot con IA en el cosmo caixa 
 ## Links de interes
 <!-- link a correo -->
 <code> <a href="mailto:a2carcruzinfo@gmail.com"><img height="25" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a></code>
@@ -22,12 +30,15 @@ lenguajes/frameworks usados
 <code><img height="30" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"></code>
 <code><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"></img></code>
 
+<<<<<<< HEAD
 ## Inpiracion del proyecto & objetivo
 - El objetivo principal es crear un juego de cartas, donde el usuario debe encontrar las cartas que con el mismo diseño.
 
 inspiracion del proyecto: carlos cruz valencia diseño en figma & robot con IA en el cosmo caixa 
 
 
+=======
+>>>>>>> b6ce6384f9e9affb266b6bf47b9b8df7f31a23fb
 ## Estado del proyecto
 |             ESTADO                |             |
 | -------------------------- | :----------------: | 
