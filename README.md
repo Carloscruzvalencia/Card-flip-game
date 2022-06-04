@@ -3,10 +3,6 @@
 ## Inpiracion del proyecto & objetivo
 - El objetivo principal es crear un juego de cartas, donde el usuario debe encontrar las cartas que con el mismo diseño.
 
-- compitiendo contra un programa en javascript que intentara hacer lo mismo 
-
-- la meta es encontrar mas pares de cartas que el oponente
-
 inspiracion del proyecto: carlos cruz valencia diseño en figma & robot con IA en el cosmo caixa 
 ## Links de interes
 <!-- link a correo -->
