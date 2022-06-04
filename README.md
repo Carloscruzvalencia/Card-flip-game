@@ -42,16 +42,3 @@ inspiracion del proyecto: carlos cruz valencia diseño en figma & robot con IA e
 
 ## Licencia
 Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md)  para mas detalles
-
-
-
-## !codigo temporal¡
-## git update code
-```shell
-git add -A && git commit -a -m \"update\" && git push
-```
-
-## sass compiler code
-```shell
-sass -w --style compressed assets/styles/sass/main.scss assets/styles/css/main.css
-```
