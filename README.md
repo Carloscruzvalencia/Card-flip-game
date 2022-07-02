@@ -1,7 +1,7 @@
 # Card-flip-game
 - mira la pagina en el siguiente link: [Card-flip-game](https://carloscruzvalencia.github.io/Card-flip-game/)
 ## Inpiracion del proyecto & objetivo
-- El objetivo principal es crear un juego de cartas, donde el usuario debe encontrar las cartas que con el mismo diseño.
+- El objetivo principal es crear un juego de cartas, donde el usuario debe encontrar las cartas con el mismo diseño.
 
 inspiracion del proyecto: carlos cruz valencia diseño en figma & robot con IA en el cosmo caixa 
 ## Links de interes
